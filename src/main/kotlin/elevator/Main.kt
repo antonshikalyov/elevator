@@ -32,7 +32,7 @@ fun main() {
       print("Введите ваш этаж: ")
       myFloor = input.nextInt()
    } while ((0 < myFloor!! && myFloor!! < 10) != true)
-   callElevator()
+      callElevator()
 
 
    do {        // Цикл катания на лифте пока не надоест
